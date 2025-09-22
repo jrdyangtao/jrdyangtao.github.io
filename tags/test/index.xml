@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Test on 蒟蒻的杨桃</title>
+        <link>http://localhost:11640/tags/test/</link>
+        <description>Recent content in Test on 蒟蒻的杨桃</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>杨桃&#39;s blog~</copyright>
+        <lastBuildDate>Tue, 09 Sep 2025 10:43:14 +0800</lastBuildDate><atom:link href="http://localhost:11640/tags/test/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>blog-test</title>
+        <link>http://localhost:11640/p/blog-test/</link>
+        <pubDate>Tue, 09 Sep 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:11640/p/blog-test/</guid>
+        <description>&lt;p&gt;$ x^2=3 $&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

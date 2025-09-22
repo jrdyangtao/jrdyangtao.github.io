@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Blog on 蒟蒻的杨桃</title>
+        <link>http://localhost:14190/tags/blog/</link>
+        <description>Recent content in Blog on 蒟蒻的杨桃</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>杨桃&#39;s blog~</copyright>
+        <lastBuildDate>Tue, 09 Sep 2025 10:54:43 +0800</lastBuildDate><atom:link href="http://localhost:14190/tags/blog/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>第一篇blog</title>
+        <link>http://localhost:14190/p/%E7%AC%AC%E4%B8%80%E7%AF%87blog/</link>
+        <pubDate>Tue, 09 Sep 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:14190/p/%E7%AC%AC%E4%B8%80%E7%AF%87blog/</guid>
+        <description></description>
+        </item>
+        
+    </channel>
+</rss>
