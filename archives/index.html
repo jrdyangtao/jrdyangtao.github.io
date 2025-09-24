@@ -1,19 +1,23 @@
 <!DOCTYPE html>
 <html lang="zh-cn" dir="ltr">
-    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=14190&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
+    <head><meta charset='utf-8'>
 <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="">
 <title>Archives</title>
 
-<link rel='canonical' href='http://localhost:14190/archives/'>
+<link rel='canonical' href='https://blog.yangtao.host/archives/'>
 
-<link rel="stylesheet" href="/scss/style.min.410565c9db808c048ee4b65a6eb26e667b1b08da503385efcaaebe55b5294803.css"><meta property='og:title' content="Archives">
+<link rel="stylesheet" href="/scss/style.min.c5ccced91323c0a0b76b37dda5de48fec8c63bac1bc32c9cc930ff9c8b22be51.css"><meta property='og:title' content="Archives">
 <meta property='og:description' content="">
-<meta property='og:url' content='http://localhost:14190/archives/'>
+<meta property='og:url' content='https://blog.yangtao.host/archives/'>
 <meta property='og:site_name' content='蒟蒻的杨桃'>
 <meta property='og:type' content='article'><meta property='article:section' content='Page' /><meta property='article:published_time' content='2019-05-28T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2025-09-08T23:08:01&#43;08:00'/>
 <meta name="twitter:title" content="Archives">
 <meta name="twitter:description" content="">
     <link rel="shortcut icon" href="/img/avatar.png" />
+<script
+  src="https://code.jquery.com/jquery-latest.min.js"
+  crossorigin="anonymous"></script>
+
 
     </head>
     <body class="template-archives">
@@ -215,7 +219,7 @@
 
 
 
-                        <span>暗色模式</span>
+                        <span>深色模式</span>
                     </li>
                 
             </ol>
@@ -234,7 +238,17 @@
                 
                     
                     <a href="/tags/blog" class="tagCloud-tags">
-                        blog<span class="tagCloud-count">1</span>
+                        blog<span class="tagCloud-count">2</span>
+                    </a>
+                
+                    
+                    <a href="/tags/markdown" class="tagCloud-tags">
+                        markdown<span class="tagCloud-count">1</span>
+                    </a>
+                
+                    
+                    <a href="/tags/mermaid" class="tagCloud-tags">
+                        mermaid<span class="tagCloud-count">1</span>
                     </a>
                 
                     
@@ -259,6 +273,23 @@
         <div class="article-list--compact">
             
                 <article>
+    <a href="/p/markdown%E8%AF%AD%E6%B3%95/">
+        <div class="article-details">
+            <h2 class="article-title">Markdown语法</h2>
+            
+            <div class="article-subtitle">
+                Markdown语法以及Mermaid绘图语法
+            </div>
+            
+            <footer class="article-time">
+                <time datetime='2025-09-23T00:00:00Z'>Sep 23, 2025</time>
+            </footer>
+        </div>
+    </a>
+</article>
+
+            
+                <article>
     <a href="/p/%E7%AC%AC%E4%B8%80%E7%AF%87blog/">
         <div class="article-details">
             <h2 class="article-title">第一篇blog</h2>
@@ -271,6 +302,15 @@
                 <time datetime='2025-09-09T00:00:00Z'>Sep 09, 2025</time>
             </footer>
         </div>
+            <div class="article-image">
+                <img src="/p/%E7%AC%AC%E4%B8%80%E7%AF%87blog/assets/yt_hu_b0199f75725ed0b3.png" 
+                        width="120"
+                        height="120" 
+                        alt="第一篇blog"
+                        loading="lazy">
+                
+            </div>
+        
     </a>
 </article>
 
@@ -311,8 +351,10 @@
         
             
         
-        发表了1篇文章 · 
-        总计0.02k字
+            
+        
+        发表了2篇文章 · 
+        总计1.16k字
     </section>
 </footer>
 
@@ -323,7 +365,7 @@
                 src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
                 
                 >
-            </script><script type="text/javascript" src="/ts/main.9fc1d37d237ae3e73b2a773d781af8ee09f9fb815478ddddbf6df5b2f5dc3f89.js" defer></script>
+            </script><script type="text/javascript" src="/ts/main.1e9a3bafd846ced4c345d084b355fb8c7bae75701c338f8a1f8a82c780137826.js" defer></script>
 <script>
     (function () {
         const customFont = document.createElement('link');
@@ -335,6 +377,7 @@
         document.head.appendChild(customFont);
     }());
 </script>
+
 
 <script>
     let s1 = '2025-9-8'; 
@@ -349,5 +392,40 @@
     let result = days + "天" + hours + "小时" + minutes + "分钟";
     document.getElementById('runningdays').innerHTML = result;
 </script>
+
+<style>
+.markmap > svg {
+  width: 100%;
+  height: 300px;
+}
+</style>
+<script>
+window.markmap = {
+  autoLoader: {
+      manual: true,
+      onReady() {
+        const { autoLoader, builtInPlugins } = window.markmap;
+        autoLoader.transformPlugins = builtInPlugins.filter(plugin => plugin.name !== 'prism');
+      },
+  },
+};
+</script>
+<script src="https://cdn.jsdelivr.net/npm/markmap-autoloader"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css"
+      crossorigin="anonymous">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.js"
+        crossorigin="anonymous">
+</script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@latest/dist/contrib/mhchem.min.js"
+        crossorigin="anonymous">
+</script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@latest/dist/contrib/auto-render.min.js"
+       crossorigin="anonymous"
+       onload='renderMathInElement(document.body, null);'>
+</script>
+<script src="https://cdn.jsdelivr.net/npm/mermaid@latest/dist/mermaid.min.js"
+        crossorigin="anonymous"></script>
+<script src="/js/main.min.beed1be94ebe04a73a3d983583046daf3fd8ac54857fa72d94a1e83c470d9eaf.js" integrity="sha256-vu0b6U6&#43;BKc6PZg1gwRtrz/YrFSFf6ctlKHoPEcNnq8=" crossorigin="anonymous"></script>
+
     </body>
 </html>

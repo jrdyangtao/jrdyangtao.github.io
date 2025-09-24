@@ -2,39 +2,48 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:14190/tags/blog/</loc>
-    <lastmod>2025-09-09T10:54:43+08:00</lastmod>
+    <loc>https://blog.yangtao.host/tags/blog/</loc>
+    <lastmod>2025-09-24T19:59:51+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:14190/post/</loc>
-    <lastmod>2025-09-09T10:54:43+08:00</lastmod>
+    <loc>https://blog.yangtao.host/tags/markdown/</loc>
+    <lastmod>2025-09-24T19:59:51+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:14190/tags/</loc>
-    <lastmod>2025-09-09T10:54:43+08:00</lastmod>
+    <loc>https://blog.yangtao.host/p/markdown%E8%AF%AD%E6%B3%95/</loc>
+    <lastmod>2025-09-24T19:59:51+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:14190/tags/yangtao/</loc>
-    <lastmod>2025-09-09T10:54:43+08:00</lastmod>
+    <loc>https://blog.yangtao.host/tags/mermaid/</loc>
+    <lastmod>2025-09-24T19:59:51+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:14190/p/%E7%AC%AC%E4%B8%80%E7%AF%87blog/</loc>
-    <lastmod>2025-09-09T10:54:43+08:00</lastmod>
+    <loc>https://blog.yangtao.host/post/</loc>
+    <lastmod>2025-09-24T19:59:51+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:14190/archives/</loc>
+    <loc>https://blog.yangtao.host/tags/</loc>
+    <lastmod>2025-09-24T19:59:51+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.yangtao.host/tags/yangtao/</loc>
+    <lastmod>2025-09-24T00:10:53+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.yangtao.host/p/%E7%AC%AC%E4%B8%80%E7%AF%87blog/</loc>
+    <lastmod>2025-09-24T00:10:53+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.yangtao.host/archives/</loc>
     <lastmod>2025-09-08T23:08:01+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:14190/page/</loc>
+    <loc>https://blog.yangtao.host/page/</loc>
     <lastmod>2025-09-09T10:12:26+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:14190/</loc>
+    <loc>https://blog.yangtao.host/</loc>
     <lastmod>2025-09-08T23:08:01+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:14190/categories/</loc>
+    <loc>https://blog.yangtao.host/categories/</loc>
   </url><url>
-    <loc>http://localhost:14190/links/</loc>
+    <loc>https://blog.yangtao.host/links/</loc>
     <lastmod>2025-09-09T10:12:26+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:14190/search/</loc>
+    <loc>https://blog.yangtao.host/search/</loc>
     <lastmod>2025-09-08T23:08:01+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:14190/%E5%85%B3%E4%BA%8E/</loc>
+    <loc>https://blog.yangtao.host/%E5%85%B3%E4%BA%8E/</loc>
     <lastmod>2025-09-09T09:50:29+08:00</lastmod>
   </url>
 </urlset>
